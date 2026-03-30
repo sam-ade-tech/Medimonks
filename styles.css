@@ -1288,6 +1288,9 @@ TESTIMONIAL SECTION */
   .footer {
     padding: 0;
   }
+  .footer-text {
+    text-align: center;
+  }
   .footer-row1 {
     display: flex;
     flex-direction: column;
