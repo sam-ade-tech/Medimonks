@@ -20,11 +20,11 @@ img {
 /* HEADER SECTION */
 
 .header {
-  background: #ffffff;
   position: fixed;
   width: 100%;
   height: 100px;
   z-index: 1000;
+  background: #1f2933;
 }
 .nav {
   display: flex;
@@ -44,7 +44,7 @@ img {
 }
 .nav-menu li a:not(.colored-nav) {
   text-decoration: none;
-  color: #1f2933;
+  color: #ffffff;
 }
 .colored-nav {
   color: #4169e1;
@@ -60,21 +60,26 @@ img {
   align-items: center;
   list-style: none;
   gap: 1.5rem;
+  margin-right: 1rem;
+}
+.get-started {
+  color: #ffffff;
 }
 .nav-link a {
   text-decoration: none;
-  color: #1f2933;
+  color: #ffffff;
 }
 .menuBtn {
   display: none;
 }
 .brand-logo {
-  margin-right: 2rem;
+  margin-left: 2rem;
+  color: #ffffff;
 }
 .plus-icon {
   font-size: 20px;
 }
-.btn-primary {
+.nav-link a.btn-primary {
   display: inline-flex;
   align-items: center;
   padding: 0.3rem 0.5rem;
@@ -98,7 +103,7 @@ img {
 
 /* CONTATCT SECTION  */
 .contact {
-  padding: 130px 20px 100px 50px;
+  padding: 130px 20px 100px 20px;
   background: #f9fafb;
 }
 .contact-wrapper {
@@ -151,11 +156,11 @@ img {
 
 /* HERO SECTION */
 .hero {
-  padding: 100px 20px 20px 50px;
+  padding: 120px 20px 20px 20px;
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 500px;
+  grid-template-columns: 1fr 600px;
   gap: 1.5rem;
 }
 .hero-card1 {
@@ -271,12 +276,12 @@ h1 .colored-text {
 
 /* FEATURE SECTION */
 .feature {
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
 }
 .feature-container {
   text-align: center;
   background: #ffffff;
-  padding: 3rem 6rem;
+  padding: 3rem 1rem;
   line-height: 1.6;
   margin: 0 auto;
 }
@@ -534,7 +539,7 @@ h1 .colored-text {
 /* SERVICE SECTION */
 
 .services {
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
 }
 .service-container {
   text-align: center;
@@ -574,7 +579,7 @@ h1 .colored-text {
 .service-card img {
   object-fit: cover;
   width: 100%;
-  height: 300px;
+  max-height: 400px;
 }
 .second-row .Title-heading {
   display: flex;
@@ -594,7 +599,7 @@ h1 .colored-text {
   color: #ff9760;
 }
 .second-row .service-card p {
-  font-size: 10px;
+  font-size: 15px;
 }
 .third-row {
   display: grid;
@@ -604,7 +609,7 @@ h1 .colored-text {
 .third-row .service-card {
   display: flex;
   flex-direction: column;
-  padding: 4rem 3rem;
+  padding: 4rem 2rem;
   background: linear-gradient(to bottom, #c8f0e8, #f5f0d0);
 }
 .service-text {
@@ -693,11 +698,13 @@ TESTIMONIAL SECTION */
 /* FOOTER SECTION */
 
 .footer {
-  padding: 0 4rem;
+  padding: 0;
   color: #ffffff;
 }
+.container {
+  max-width: 100%;
+}
 .footer-container {
-  max-width: 1200px;
   padding: 2rem 3rem;
   background: black;
   margin: auto;
@@ -784,7 +791,7 @@ TESTIMONIAL SECTION */
 /* SIGNUP SECTION */
 
 .signup {
-  padding: 150px 20px 100px 50px;
+  padding: 150px 20px 100px 20px;
 }
 .signup-wrapper {
   display: grid;
@@ -843,7 +850,7 @@ TESTIMONIAL SECTION */
 
 /* LOGIN PAGE */
 .login-page {
-  padding: 130px 20px 100px 50px;
+  padding: 130px 20px 100px 20px;
 }
 .login-container {
   display: grid;
